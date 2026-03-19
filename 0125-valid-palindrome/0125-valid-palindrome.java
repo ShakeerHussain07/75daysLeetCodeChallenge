@@ -1,8 +1,8 @@
 class Solution {
     public boolean isPalindrome(String s) {
-        int n=s.length();
+        int len=s.length();
         String str="";
-        for(int i=0;i<n;i++){
+        for(int i=0;i<len;i++){
             if(Character.isLetterOrDigit(s.charAt(i))){
                 str=str+s.charAt(i);
             }
